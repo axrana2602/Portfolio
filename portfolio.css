@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 1152 px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header
+{
+    background-color: rgb(243, 238, 238);
+    animation: cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+header nav .left a{
+    color: rgb(52, 54, 55);
+    padding-top: 2%;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+header nav .left a:hover{
+    color: rgb(44, 46, 46);
+}
+header nav .right button{
+    background-color: rgb(47, 48, 48);
+    color: rgb(48, 48, 49);
+    width: 140px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 10rem;
+    font-weight: 600;
+    padding: 0.8 3rem;
+    cursor: pointer;
+}
+header nav .right button:hover{
+    background: transparent;
+    color: rgb(48, 50, 50);
+    border-color: rgb(49, 51, 51);
+}
+.flex
+{
+    display: flex;
+}
+.left{
+    align-items: center;
+}
+body
+{
+    font-family: 'Poppins',sans-serif;
+}
+header nav .branding{
+    padding-left: 20%;
+    margin-right: 10rem;
+}
+header nav{
+    padding: 2rem 0;
+}
+.bottom{
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.top img{
+    align-items: center;
+}
+.bottom h4{
+    color: rgb(43, 44, 44);
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.bottom h1{
+    color: rgb(47, 48, 49);
+}
+.bottom p{
+    color: rgb(50, 51, 52);
+}
+.bottom h1 span{
+    color: rgb(41, 42, 42);
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.btn button{
+    background-color: rgb(52, 54, 54);
+    color: rgb(58, 59, 59);
+    width: 130px;
+    height: 40px;
+    font-weight: 600;
+    padding: 0.8 3rem;
+    cursor: pointer;
+    background: transparent;
+    border-color: rgb(48, 49, 49);
+}
+.btn button:hover{
+    background-color: rgb(43, 44, 44);
+    color: rgb(50, 49, 49);
+}
+.container{
+    align-items: center;
+}
+section{
+    padding: 8rem 0;
+    padding-left: 10%;
+}
+section .about img{
+    height: 450px;
+}
+section .Abt h1{
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section .Abt h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section .about p{
+    font-family: 'Late', sans-serif;
+    color: var(--ternary);
+    line-height: 1.8;
+}
+.Abt{
+    align-items: center;
+    padding-left: 10%;
+    box-decoration-break: slice;
+}
+.Skills{
+    align-items: center;
+    padding-left: 10%;
+    box-decoration-break: slice;
+}
+section .Skills h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sk{
+    background-color: rgb(230, 245, 249);
+}
